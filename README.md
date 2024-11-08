@@ -12,7 +12,7 @@
 <br>
 
 # About
-This project is an older brother of **[WGE]()** written on C++ for Linux operating system called **[LGE]()**.
+This project is an older brother of **[WGE](https://github.com/aASDa213ASD/WGE)** written on C++ for Linux operating system called **[LGE](https://github.com/aASDa213ASD/LGE)**.
 
 Project was initially written years ago when I decided to play a very known game that only supports controller inputs and been rewritten to fix some major issues like input lag (thanks python), flexibility in customization and lack of some quality-of-life features like cursor hiding.
 
@@ -43,9 +43,9 @@ cd build/ && sudo gamepad
 > Root permissions are required for a reason. Current implementation is not depended on any input library to listen your mouse and keyboard, instead it directly hooks into corresponding file descriptor and detects any action that goes there which on itself requires root permissions to be granted.
 
 # Configuration
-All of the tinkering with your binds and gamepad button definitions will be happening in **[SOME_FILE]()** file.
+All of the tinkering with your binds and gamepad button definitions will be happening in **[settings.h](common/settings.h)** file.
 
 # Usage
-Run the executable with root permissions, press your **[pause bind]()** to unpase the gamepad and perhaps press your **[calibration bind]()** to set the origin of right stick to current cursor position.
+Run the executable with root permissions, press your **[pause bind](common/settings.h#L56)** to unpase the gamepad and perhaps press your **[calibration bind](common/settings.h#L62)** to set the origin of right stick to current cursor position.
 
 That's pretty much it, now you can point your gamepad to some program and use it as it was real.
