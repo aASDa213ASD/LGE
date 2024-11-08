@@ -1,0 +1,1 @@
+Binary is built as 'gamepad', can be changed in [build.sh](../build.sh). Previous binary is always overwritten by the new one, so don't forget to either rename one or change the target name in the file above.
